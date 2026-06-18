@@ -11,12 +11,10 @@ st.markdown(
     unsafe_allow_html=True
 ) 
 
-
-
 st.subheader("🤒 Select Symptoms")
 
 # Load Saved Model
-model = pickle.load(open("model.pkl", "rb"))
+model = pickle.load(open("/model.pkl", "rb"))
 
 st.title("Disease Prediction System")
 
